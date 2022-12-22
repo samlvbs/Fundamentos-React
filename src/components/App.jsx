@@ -6,6 +6,8 @@ import Primeiro from "./Primeiro";
 import Card from "../layout/Card";
 import Repeticao from "./Repeticao";
 import Condicional from "./Condicional";
+import Pai from "./Comunicacao/direta/Pai";
+
 
 export default (props) =>(
 
@@ -31,6 +33,9 @@ export default (props) =>(
     </Card>
     <Card titulo="#05 - Componente com Condicional" color="#00a0b0">
         <Condicional numero = {11}/>
+    </Card>
+    <Card titulo="#06 - Componente com comunicação direta " color="#00a0b0">
+        <Pai sobrenome="Souza"/>
     </Card>
     </div>
 );
