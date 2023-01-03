@@ -6,6 +6,6 @@ export default () =>
         </h1>
         <h2>Meu primeiro componente em React</h2>
     </div>
- 
+
 
 

@@ -11,13 +11,15 @@
     overflow: hidden;
     background-color: white;
 }
-.Card .Conteudo{
+
+.Card .Conteudo {
     color: black;
     padding: 10px 0px;
     height: 90%;
     text-align: center;
 }
-.Card .Footer{
+
+.Card .Footer {
     background-color: black;
     padding: 10px 0px;
 }
