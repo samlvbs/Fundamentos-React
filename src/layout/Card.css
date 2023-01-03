@@ -1,7 +1,11 @@
 .Card {
     display: flex;
     flex-direction: column-reverse;
+
     margin: 20px;
+    min-width: 300px;
+    max-width: 400px;
+    height: 300px;
     border: 3px solid black;
     border-radius: 10px;
     overflow: hidden;
@@ -10,8 +14,8 @@
 .Card .Conteudo{
     color: black;
     padding: 10px 0px;
-    list-style-type: none;
-
+    height: 90%;
+    text-align: center;
 }
 .Card .Footer{
     background-color: black;
